@@ -1,0 +1,11 @@
+INSERT INTO Student (Studentid, Surname, GivenName, Gender)
+VALUES ('103474556', 'Breen', 'Sam', 'M');
+INSERT INTO Student (Studentid, Surname, GivenName, Gender)
+VALUES ('s12233445', 'Baird', 'Tim', 'M');
+INSERT INTO Student (Studentid, Surname, GivenName, Gender)
+VALUES ('s23344556', 'Nguyen', 'Anh', 'M');
+INSERT INTO Student (Studentid, Surname, GivenName, Gender)
+VALUES ('s34455667', 'Hallinan','James','M');
+
+SELECT *
+FROM Student;
