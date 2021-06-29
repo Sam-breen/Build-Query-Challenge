@@ -1,0 +1,20 @@
+103474556, Sam Breen
+
+Task 1
+
+Subject (SubjCode, Description)
+PK (SubjCode)
+
+SubjectOffering (Year, Semester, Fee)
+PK (Year, Semester)
+FK (StaffID) references Teacher, (subjCode) references subject
+
+Teacher (StaffID, Surname, GivenName)
+PK (StaffID)
+
+Enrolment (DateEnrolled, Grade)
+PK (SubjCode, Year, Semester)
+FK (StudentID) references Student
+
+Student (StudentID, Surname, GivenName, Gender)
+PK (StudentID)
